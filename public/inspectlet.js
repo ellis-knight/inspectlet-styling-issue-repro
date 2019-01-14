@@ -1,6 +1,7 @@
 /* eslint-disable */
 if (typeof window !== "undefined") {
   (function() {
+    const inspecletId = 1995568531;
     const insp_ab_loader = true; // set this boolean to false to disable the A/B testing loader
     window.__insp = window.__insp || [];
     __insp.push(["wid", 1995568531]);
@@ -13,7 +14,7 @@ if (typeof window !== "undefined") {
       insp.id = "inspsync";
       insp.src = `${
         document.location.protocol == "https:" ? "https" : "http"
-      }://cdn.inspectlet.com/inspectlet.js?wid=1995568531&r=${Math.floor(
+      }://cdn.inspectlet.com/inspectlet.js?wid=${inspecletId}&r=${Math.floor(
         new Date().getTime() / 3600000
       )}`;
       const x = document.getElementsByTagName("script")[0];
