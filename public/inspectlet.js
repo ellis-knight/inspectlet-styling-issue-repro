@@ -1,10 +1,10 @@
 /* eslint-disable */
 if (typeof window !== "undefined") {
   (function() {
-    const inspecletId = 1995568531;
+    const inspecletId = 12345;
     const insp_ab_loader = true; // set this boolean to false to disable the A/B testing loader
     window.__insp = window.__insp || [];
-    __insp.push(["wid", 1995568531]);
+    __insp.push(["wid", inspecletId]);
     const ldinsp = function() {
       if (typeof window.__inspld !== "undefined") return;
       window.__inspld = 1;
